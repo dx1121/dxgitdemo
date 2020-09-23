@@ -5,11 +5,15 @@
 git config --global user.email "dx1121@hotmail.com" 
 git init
 git add .\1.txt
+git add .
 git commit -m "trying to add 1.txt from one drive Git folder"
 
 git remote -v    (view current remote)
-git remote add origin https://github.com/dx1121/gitdemo.git
+git remote add origin https://github.com/dx1121/dxgitdemo.git
 git remote rm origin    (remote current remote)
 
 
 git push -u origin master
+git push -u origin master --force
+
+git status

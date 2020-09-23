@@ -8,3 +8,6 @@ git add .\1.txt
 git commit -m "trying to add 1.txt from one drive Git folder"
 
 git remote add origin https://github.com/dx1121/gitdemo.git
+
+
+git push -u origin master

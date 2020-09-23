@@ -1,0 +1,10 @@
+1.txt
+
+
+---Git Command----
+git config --global user.email "dx1121@hotmail.com" 
+git init
+git add .\1.txt
+git commit -m "trying to add 1.txt from one drive Git folder"
+
+git remote add origin https://github.com/dx1121/gitdemo.git

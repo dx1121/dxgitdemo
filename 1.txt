@@ -17,3 +17,5 @@ git push -u origin master
 git push -u origin master --force
 
 git status
+
+git reset --mixed d877b927bb0a8db31a1ca80b887ded8a5f5bc088

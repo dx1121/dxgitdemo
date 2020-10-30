@@ -8,7 +8,8 @@
   <meta name="Description" content="">
 
 <style>
-    body{margin:0;padding:0}
+    html,body{height:100%;}
+    body{margin:0;padding:0;display: flex;flex-direction: column;}
 header{display:flex;align-items: center;}
 nav{
     background-color: bisque;
@@ -20,6 +21,9 @@ nav{
 nav ul {margin:0;padding:15px 25px;}
 nav ul li{display: inline-block;}
 .loginWP{background-color: cadetblue;}
+
+.txtbody{background-color: chartreuse;flex:1}
+footer{background-color:coral}
 </style>  
 
  </head>
@@ -39,12 +43,12 @@ nav ul li{display: inline-block;}
         <span>Register</span>
     </div>
 
-<section><div>Body text</div></section>    
-<footer>Footer txt</footer>
+
 </header>  
 
 
-
+<section class="txtbody"><div>Body text</div></section>    
+<footer>Footer txt</footer>
 
 
  </body>
